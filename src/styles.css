@@ -1,1 +1,13 @@
+@tailwind base;
+
+@layer base {
+  html,body{
+    @apply w-full h-full;
+  }
+}
+
+
+@tailwind components;
+
+@tailwind utilities;
 /* You can add global styles to this file, and also import other style files */
